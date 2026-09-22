@@ -1,0 +1,132 @@
+# RAW WORKROOM SEALED LICENSE
+
+### Sparse Routing & Topological Work-Stealing System
+
+**Version 1.0 — 2026**
+
+Copyright © 2026 Ahmad Ali Parr / SnapKitty Collective. All rights reserved.
+
+## 1. Grant
+
+This license grants a limited, non-transferable right to inspect, evaluate, and execute the RAW Sparse Routing algorithm and associated documentation solely within an authorized Workroom environment.
+
+The Workroom constitutes the sealed execution boundary.
+
+## 2. Sealed Boundary
+
+The licensed material may be:
+
+* loaded into an authorized Workroom;
+* inspected by authorized users;
+* executed for research, evaluation, testing, benchmarking, and development;
+* integrated into private Workroom experiments.
+
+The licensed material may not be copied outside the authorized Workroom except where expressly permitted by the Licensor.
+
+## 3. Prohibited Redistribution
+
+Without written authorization, the recipient may not:
+
+1. publish the implementation;
+2. redistribute source code;
+3. sublicense the algorithm;
+4. sell or transfer the sealed implementation;
+5. remove attribution or licensing notices;
+6. create a competing distribution from the sealed implementation;
+7. expose protected implementation material through an external service;
+8. transfer Workroom credentials, keys, or authorization artifacts.
+
+## 4. Derivative Works
+
+Research performed inside the Workroom may produce independent results, measurements, benchmarks, and observations.
+
+A derivative implementation incorporating protected RAW implementation material remains subject to this license unless the Licensor provides a separate license.
+
+Independent implementations created without access to protected implementation material are not automatically subject to this license.
+
+## 5. Commercial Use
+
+Commercial deployment, redistribution, SaaS exposure, hardware distribution, or incorporation into a commercial product requires a separate written commercial license.
+
+Commercial authorization may be issued through a signed license certificate or cryptographic authorization artifact.
+
+## 6. Cryptographic Seal
+
+An authorized release may contain:
+
+```text
+WORKROOM_ID
+LICENSE_ID
+LICENSE_VERSION
+ISSUED_AT
+EXPIRATION
+AUTHORIZED_SCOPE
+AUTHORIZED_NODE
+PUBLIC_KEY
+SIGNATURE
+```
+
+The authorization record may be verified using a public-key signature.
+
+Example conceptual verification:
+
+```text
+VERIFY(
+    license_document,
+    authorization,
+    public_key
+) = TRUE
+```
+
+A failed verification MUST cause the protected execution environment to reject the authorization.
+
+## 7. No Implied Authority
+
+Possession of a copy, hash, signature, node key, or Workroom artifact does not by itself constitute authorization for redistribution or commercial deployment.
+
+Authorization is determined exclusively by the applicable license record.
+
+## 8. No Warranty
+
+The software and algorithm are provided **AS IS**, without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy, or non-infringement.
+
+## 9. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the Licensor shall not be liable for indirect, incidental, consequential, special, exemplary, or punitive damages arising from use of the licensed material.
+
+## 10. Termination
+
+Authorization terminates automatically upon:
+
+* expiration of the license;
+* unauthorized redistribution;
+* unauthorized commercial deployment;
+* circumvention of the Workroom security boundary;
+* material breach of this license.
+
+Upon termination, all use of the protected implementation must cease and all unauthorized copies must be destroyed, subject to legally required retention.
+
+## 11. Ownership
+
+The algorithm, implementation, documentation, naming, architecture, and associated intellectual property remain the property of the Licensor except where another written agreement expressly provides otherwise.
+
+This license grants permission to use the material under defined conditions. It does not transfer ownership.
+
+## 12. Governing License Record
+
+The authoritative license is the cryptographically signed license record associated with the authorized Workroom release.
+
+```text
+RAW-WORKROOM
+SEAL: REQUIRED
+SIGNATURE: REQUIRED
+AUTHORIZATION: REQUIRED
+REDISTRIBUTION: PROHIBITED
+COMMERCIAL USE: SEPARATE LICENSE
+```
+
+**Licensor:** Ahmad Ali Parr / SnapKitty Collective
+
+**License:** RAW Workroom Sealed License v1.0
+
+**Status:** SEALED
