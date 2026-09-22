@@ -1,0 +1,17 @@
+[package]
+name = "ptm-cli"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license-file.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "CLI for PTM binary — validate, simulate, generate Verilog, analyze traces"
+
+[dependencies]
+ptm-core = { path = "../ptm-core" }
+ptm-engine = { path = "../ptm-engine" }
+ptm-fpga = { path = "../ptm-fpga" }
+ptm-ml = { path = "../ptm-ml" }
+sha2 = "0.10"

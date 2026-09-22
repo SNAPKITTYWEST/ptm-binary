@@ -1,0 +1,15 @@
+[package]
+name = "ptm-ml"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license-file.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "ML verification layer for PTM correctness — pattern recognition, anomaly detection, complexity analysis"
+
+[dependencies]
+ptm-core = { path = "../ptm-core" }
+ptm-engine = { path = "../ptm-engine" }
+sha2 = "0.10"

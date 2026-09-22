@@ -1,0 +1,14 @@
+[package]
+name = "ptm-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license-file.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Binary foundation for Polynomial Turing Machine — headers, CRC-32, SHA-256, magic numbers, file formats"
+
+[dependencies]
+sha2 = "0.10"
+bitflags = "2"

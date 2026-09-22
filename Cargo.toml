@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/ptm-core",
+    "crates/ptm-engine",
+    "crates/ptm-fpga",
+    "crates/ptm-ml",
+    "crates/ptm-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["SnapKitty Collective LLC"]
+license-file = "LICENSE"
+repository = "https://github.com/SNAPKITTYWEST/ptm-binary"
+keywords = ["turing-machine", "binary-semantics", "fpga", "cyclone", "polynomial"]
+categories = ["compilers", "virtual-machines", "no-std", "hardware", "science"]

@@ -1,0 +1,14 @@
+[package]
+name = "ptm-engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license-file.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Polynomial Turing Machine engine — transition table parser, 4-tape simulator, snapshot system"
+
+[dependencies]
+ptm-core = { path = "../ptm-core" }
+sha2 = "0.10"

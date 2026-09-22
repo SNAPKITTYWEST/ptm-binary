@@ -1,0 +1,58 @@
+NODE-LOCKED NETWORK PUBLIC LICENSE v1.0
+(NLNPL-1.0)
+
+Copyright (c) 2026 SnapKitty Collective LLC
+
+NOTICE: Prior Art Badge Date: April 14, 2026
+
+This license governs the use, modification, and distribution of the
+Polynomial Turing Machine Binary Specification and implementation
+("Software"). By using this Software, you agree to the following terms:
+
+1. GRANT OF LICENSE
+   Subject to the terms of this License, Licensor grants You a
+   non-exclusive, worldwide, royalty-free license to use, modify, and
+   distribute the Software in source and binary forms.
+
+2. NODE-LOCKED RESTRICTION
+   The Software is licensed for use only on the specific compute node
+   (machine) identified by the hostname and hardware fingerprint
+   recorded at the time of license activation. Transfer of the license
+   to a different node requires written authorization from the Licensor.
+
+3. DERIVATIVE WORKS
+   You may create derivative works of the Software, provided that:
+   (a) Derivative works include prominent attribution to the original
+       Licensor and the NLNPL-1.0 license.
+   (b) Derivative works that incorporate the binary formats defined in
+       BLRD-PTM-2026-001 must preserve backward compatibility with
+       existing artifacts.
+   (c) Derivative works must not remove or obscure any copyright
+       notices, license headers, or audit trail mechanisms.
+
+4. AUDIT TRAIL
+   Any use of the Software in a production environment must maintain
+   a complete audit trail as specified in Section 0007 of
+   BLRD-PTM-2026-001. The audit trail must be stored in a tamper-
+   evident format with SHA-256 integrity verification.
+
+5. REVERSE ENGINEERING
+   You may not reverse engineer, decompile, or disassemble any binary
+   artifacts produced by the Software, except to the extent permitted
+   by applicable law.
+
+6. WARRANTY DISCLAIMER
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY
+   CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+   WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. TERMINATION
+   This License terminates automatically if You breach any term.
+   Upon termination, You must cease all use and destroy all copies
+   of the Software.
+
+CONTACT: Jessica, jessica@collectivekitty.com

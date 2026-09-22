@@ -1,0 +1,14 @@
+[package]
+name = "ptm-fpga"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license-file.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "CPL/Cyclone FPGA synthesis target — generates Verilog from PTM transition tables for Intel Cyclone FPGAs"
+
+[dependencies]
+ptm-core = { path = "../ptm-core" }
+ptm-engine = { path = "../ptm-engine" }
